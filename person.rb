@@ -21,6 +21,8 @@ class Person
       end  
       
       return total/people.length.to_f
+    else
+      super(method,people)
     end
   end
 
